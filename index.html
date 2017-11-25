@@ -1,0 +1,120 @@
+<HTML>
+
+	<HEAD>
+		<TITLE>JavaScript Test</TITLE>
+		<script>
+			function headTest() {
+			document.getElementById('head').innerHTML='Paragraph changed.';
+			}		
+		</script>
+		<script src="myScript.js"></script>
+	</HEAD>
+
+	<BODY>
+	
+		<!-- FIRST JS -->
+	
+		<H1>Java Test!</H1>
+		<p id="test">Hello, World</p>
+		<button type="button" onclick='document.getElementById("test").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+		
+		<br>
+		
+		<!-- JS CAPABILITIES -->
+		
+		<H1>What Can JavaScript Do?</H1>
+		<p>JavaScript can change HTML attributes.</p>
+		<p>In this case, JavaScript changes the SRC (source)
+		attribute of an image using the "getElementById()" command.</p>
+		
+		<button onclick="document.getElementById('lightBulb').src='on.png'">Turn the Light On</button>
+		<img id="lightBulb" SRC="off.png">
+		<button onclick="document.getElementById('lightBulb').src='off.png'">Turn the Light Off</button>
+		
+		<br>
+
+		<p id="size">JavaScript can change the style of HTML elements.</p>
+		
+		<button onClick="document.getElementById('size').style.fontSize='35px'">Click me!</button>
+		
+		<br>
+		
+		<p id="hide">JavaScript can hide HTML elements by using the "getElementById()" command to change the "style.display" attribute to "none".</p>
+		
+		<button onClick="document.getElementById('hide').style.display ='none'">Click Me!</button>
+		
+		<BR><BR>
+	
+		JavaScript can show hidden HTML elements by using the "getElementById()" command to change the "style.display" attribute to "block".<BR>
+		
+		
+		<p id="show" style="display:none">Hello, World!</p>
+			
+		<button onClick="document.getElementById('show').style.display='block'">Click Me!</button>
+		
+		<!-- JS IN HEAD -->
+		
+		<H1>JavaScript in Head</H1>
+		
+		A JavaScript function can be placed in the "HEAD" section of an HTML page. The function is called when a button is clicked.<BR><BR>
+
+		
+		<p id="head">A paragraph.</p>
+		
+		<button type="button" onClick='headTest()'>Try it</button><br><br>
+		
+		<!-- JS IN BODY -->
+		
+		<h1>JavaScript in Body</h1>
+		A JavaScript function can be placed in the "BODY" section of an HTML page. The function is called when a button is clicked.<BR><BR>
+		
+		<p id="body">A paragraph.</p>
+		
+		<button type="button" onClick="bodyTest()">Try it</button>
+		
+		<script>
+			function bodyTest() {
+				document.getElementById('body').innerHTML='Paragraph changed.';
+			}
+		</script>
+		
+		<!-- EXTERNAL JS -->
+		
+		<h1>External JavaScript</h1>
+		Scripts can also be stored in external files with the extension ".js". To use an external script, place the name of the file the SRC (source) attribute of a script tag.
+		
+		<p id="ext">This is a paragraph.</p>
+		<button type="button" onClick="extScript()">Try it</button>
+		
+		
+		
+		<H1>JavaScript Variables</H1>
+		In this example, X is defined as a variable. Then, X is assigned the value of 6.<BR><BR>
+		<p id="var"></p>
+		
+		<script>
+			var x;
+			x = 6;
+			document.getElementById('var').innerHTML=x;
+		</script>
+		
+		<!-- JS TOGGLE -->
+		
+		<H1>JavaScript Toggle</H1>
+		
+		<p id="toggle">Test</p>
+		<button type="button" onClick="toggleTest()">Test</button>
+		<script src="myScript.js"></script>
+		
+		<BR>
+		
+		<!-- JS SLIDESHOW -->
+		
+		<img id="slideshow" src="dogs.jpg">
+		
+		<button type="button" onClick="slideShow()">Click Here!</button>
+		
+		
+	</BODY>
+
+</HTML>
