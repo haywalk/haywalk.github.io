@@ -44,6 +44,27 @@ a:hover, a:active {
 	margin-right: auto;
 }
 
+.devdesc{
+	position: absolute;
+	width: 600;
+	margin-left: 200;
+	margin-top: 50;
+}
+
+.devex{
+	position: absolute;
+	width: 350;
+	margin-left: 500;
+	font-size: 15;
+	margin-top: 80;
+}
+
+.devfoot{
+	width: 600;
+	margin-left: 200;
+	margin-top: -20;
+}
+
 /*ANNOUNCEMENTS*/
 
 .notice{
