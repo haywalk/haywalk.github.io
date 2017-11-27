@@ -1,0 +1,68 @@
+/*#3AA655, #F9D3A5*/
+
+body{
+	background-color: lightgrey;
+}
+
+a{
+	color: blue;
+}
+
+a:hover{
+	color: red;
+}
+
+ul{
+	position: absolute;
+	margin-top: 5;
+}
+
+ul li{
+	list-style-type: none;
+	height: 25;
+	display: inline-block;
+}
+
+.main{
+	background-color: white;
+	width: 800;
+	height: 800; /*TMP*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.banner{
+	width: 780;
+	height: 100;
+	margin-left: 10;
+	margin-top: 10;
+	background-image: url("banner.jpg");
+	position: absolute;
+}
+
+.bordermain{
+	width: 780;
+	height: 680;
+	position: absolute;
+	margin-top: 110;
+	margin-left: 10;
+	background-color: #3AA655;
+}
+
+.upmenu{
+	width:760;
+	height: 25;
+	background-color: white;
+	margin-left: 10;
+	margin-top: 10;
+}
+
+.body{
+	width: 756;
+	height: 621;
+	background-color: white;
+	margin-top: 10;
+	margin-left: 10;
+	padding: 2;
+	
+}
