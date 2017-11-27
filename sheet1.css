@@ -12,17 +12,6 @@ a:hover{
 	color: red;
 }
 
-ul{
-	position: absolute;
-	margin-top: 5;
-}
-
-ul li{
-	list-style-type: none;
-	height: 25;
-	display: inline-block;
-}
-
 .main{
 	background-color: white;
 	width: 800;
