@@ -59,12 +59,36 @@ a:hover{
 
 .body{
 	width: 556;
-	height: 596;
+	height: 451;
 	background-color: white;
 	margin-top: 10;
 	margin-left: 10;
 	padding: 2;
 	
+}
+
+.bulletin{
+	width: 556;
+	height: 131;
+	background-color: white;
+	margin-top: 10;
+	margin-left: 10;
+	padding: 2;
+	background-image: url("bulletin.jpg");
+	font-family: "comic sans ms";
+}
+
+.bulletinhead{
+	width:556;
+	height: 31;
+	background-image: url("paper.jpg");
+}
+
+.bulletinmain{
+	width: 556;
+	height: 100;
+	overflow: auto;
+	font-weight: bold;
 }
 
 .sidebar{
