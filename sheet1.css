@@ -57,9 +57,18 @@ a:hover{
 	margin-top: 0;
 }
 
+.welcome{
+	width: 556;
+	height: 21;
+	padding: 2;
+	margin-top: 10;
+	margin-left: 10;
+	background-color: white;
+}
+
 .body{
 	width: 556;
-	height: 451;
+	height: 416;
 	background-color: white;
 	margin-top: 10;
 	margin-left: 10;
