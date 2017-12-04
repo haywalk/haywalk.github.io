@@ -30,6 +30,11 @@ a:hover{
 	position: absolute;
 }
 
+.a{
+	margin-left: 5;
+	margin-right: 5;
+}
+
 .bordermain{
 	width: 780;
 	height: 680;
