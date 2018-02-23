@@ -1,134 +1,70 @@
-/*#3AA655, #F9D3A5*/
-
 body{
-	background-color: lightgrey;
-	font-family: "Times New Roman", Times, serif;
-}
-
-a{
-	color: blue;
-}
-
-a:hover{
-	color: red;
-}
-
-.main{
-	background-color: white;
-	width: 800;
-	height: 800; /*TMP*/
+	width: 600;
+	
 	margin-left: auto;
 	margin-right: auto;
 }
 
+a{color: blue;} a:hover{color: red;} .menulink{margin-left: 5; margin-right: 5;}
+
+table, tr, th{
+	border: 1px solid black;
+	overflow: hidden;
+}
+
+th{
+	width: 250;
+}
+
 .banner{
-	width: 780;
-	height: 100;
-	margin-left: 10;
-	margin-top: 10;
-	background-image: url("banner.jpg");
-	position: absolute;
+	width: 600;
+	height: 75;
+	background-image: url("banner.png");
 }
 
-.a{
-	margin-left: 5;
-	margin-right: 5;
-}
-
-.bordermain{
-	width: 780;
-	height: 680;
-	position: absolute;
-	margin-top: 110;
-	margin-left: 10;
+.menubar{
+	width: 600;
+	height: 25;
 	background-color: #3AA655;
 }
 
-.upmenu{
-	width:760;
-	height: 25;
-	background-color: white;
-	margin-left: 10;
-	margin-top: 10;
-
-	
-}
-
-.lwmenu{
-	width:760;
+.pgmenu{
+	width: 600;
 	height: 25;
 	background-color: lightgrey;
-	margin-left: 10;
-	margin-top: 0;
 }
 
-.welcome{
-	width: 556;
-	height: 21;
-	padding: 2;
-	margin-top: 10;
-	margin-left: 10;
-	background-color: white;
-}
-
-.body{
-	width: 556;
-	height: 416;
-	background-color: white;
-	margin-top: 10;
-	margin-left: 10;
-	padding: 2;
-	
+.mainpagetxt{
+	width: 400;
+	height: 455;
 }
 
 .bulletin{
-	width: 556;
-	height: 131;
-	background-color: white;
-	margin-top: 10;
-	margin-left: 10;
-	padding: 2;
+	width: 290;
+	height: 145;
 	background-image: url("bulletin.jpg");
-	font-family: "comic sans ms";
-}
-
-.bulletinhead{
-	width:556;
-	height: 31;
-	background-image: url("paper.jpg");
-}
-
-.bulletinmain{
-	width: 556;
-	height: 100;
-	overflow: auto;
+	position: absolute;
 	font-weight: bold;
+	overflow: auto;
+	margin-left: 110;
+}
+
+.portrait{
+	position: absolute;
+
 }
 
 .sidebar{
 	width: 190;
-	height: 455;
-	margin-right: 10;
-	margin-top: -600;
-	background-color: white;
-	float: right;
-	
-}
-
-.corner{
-	width: 190;
-	height: 135;
+	height: 600;
+	margin-left: 410;
+	margin-top: -455;
 	background-color: blue;
-	float: right;
-	margin-right: 10;
-	margin-top: -135;
 	color: white;
 }
 
-/*SEASONAL*/
-
-.xmas{
-	position: absolute;
-	elevation: 10;
-	display: none;
+.pagebottom{
+	width: 600;
+	height: 100;
+	margin-top: 5;
 }
