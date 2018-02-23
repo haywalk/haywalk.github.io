@@ -40,18 +40,12 @@ th{
 }
 
 .bulletin{
-	width: 290;
+	width: 400;
 	height: 145;
 	background-image: url("bulletin.jpg");
 	position: absolute;
 	font-weight: bold;
 	overflow: auto;
-	margin-left: 110;
-}
-
-.portrait{
-	position: absolute;
-
 }
 
 .sidebar{
