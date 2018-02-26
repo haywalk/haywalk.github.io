@@ -12,10 +12,6 @@ table, tr, th{
 	overflow: hidden;
 }
 
-th{
-	width: 250;
-}
-
 .banner{
 	width: 600;
 	height: 75;
