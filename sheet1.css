@@ -3,6 +3,7 @@ body{
 	
 	margin-left: auto;
 	margin-right: auto;
+	font-family: times new roman;
 }
 
 a{color: blue;} a:hover{color: red;} .menulink{margin-left: 5; margin-right: 5;}
@@ -42,6 +43,15 @@ table, tr, th{
 	position: absolute;
 	font-weight: bold;
 	overflow: auto;
+	font-family: comic sans ms;
+}
+
+.bulletinhead{
+	width: 400;
+	height: 25;
+	font-size: 20;
+	text-align: center;
+	background-image: url("paper.jpg")
 }
 
 .sidebar{
