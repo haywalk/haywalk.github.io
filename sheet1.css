@@ -16,7 +16,7 @@ table, tr, th{
 .banner{
 	width: 600;
 	height: 75;
-	background-image: url("banner.png");
+	background-image: url("photos/banner.png");
 }
 
 .menubar{
@@ -38,7 +38,7 @@ table, tr, th{
 .bulletin{
 	width: 400;
 	height: 145;
-	background-image: url("bulletin.jpg");
+	background-image: url("photos/bulletin.jpg");
 	position: absolute;
 	font-weight: bold;
 	overflow: auto;
@@ -57,7 +57,7 @@ table, tr, th{
 	height: 25;
 	font-size: 20;
 	text-align: center;
-	background-image: url("paper.jpg")
+	background-image: url("photos/paper.jpg")
 }
 
 .sidebar{
