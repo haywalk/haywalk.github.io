@@ -74,3 +74,8 @@ table, tr, th{
 	height: 100;
 	margin-top: 10;
 }
+
+.code{
+	font-family: "Courier New", Courier, monospace;
+	color: #778899;
+}
