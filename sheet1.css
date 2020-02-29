@@ -41,7 +41,8 @@ table, tr, th{
 	background-image: url("photos/bulletin.jpg");
 	position: absolute;
 	font-weight: bold;
-	overflow: auto;
+	overflow-y: scroll;
+	overflow-x: hidden;
 	font-family: comic sans ms;
 }
 
@@ -57,7 +58,7 @@ table, tr, th{
 	height: 25;
 	font-size: 20;
 	text-align: center;
-	background-image: url("photos/paper.jpg")
+	background-image: url("photos/paper.jpg");
 }
 
 .sidebar{
