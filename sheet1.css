@@ -22,5 +22,5 @@ body{
 }
 
 h1, h2, h3{
-	text-shadow: 2px 0px yellow, 2px 2px red, 2px 4px purple;
+	text-shadow: 1px 1px yellow, 2px 2px red, 3px 3px purple;
 }
